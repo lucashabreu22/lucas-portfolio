@@ -19,7 +19,13 @@ const Header = () => {
             <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="#">Curriculum</a>
+            <a
+              href="https://www.linkedin.com/in/lucashabreu/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Curriculum
+            </a>
           </li>
         </ul>
 
@@ -31,7 +37,11 @@ const Header = () => {
           <a href="#portfolio">
             <ScrollText />
           </a>
-          <a href="#">
+          <a
+            href="https://www.linkedin.com/in/lucashabreu/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FileUser />
           </a>
         </div>
