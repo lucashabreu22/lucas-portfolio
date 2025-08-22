@@ -57,4 +57,9 @@
     display: flex;
     gap: 1.3rem;
   }
+
+  .menu-icon a {
+    text-decoration: none;
+    color: #121212;
+  }
 }
