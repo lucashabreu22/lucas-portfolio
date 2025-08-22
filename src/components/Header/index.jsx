@@ -35,17 +35,18 @@ const Header = () => {
         </ul>
 
         <div className="menu-icon">
-          <a href="#aboutMe">
+          <a href="#aboutMe" aria-label="About Me">
             <User />
           </a>
 
-          <a href="#portfolio">
+          <a href="#portfolio" aria-label="Portfolio">
             <ScrollText />
           </a>
           <a
             href="https://www.linkedin.com/in/lucashabreu/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Curriculum LinkedIn Profile"
           >
             <FileUser />
           </a>
