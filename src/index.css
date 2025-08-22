@@ -1,4 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap");
+@font-face {
+  font-family: "Public Sans";
+  src: url("./assets/fonts/PublicSans-VariableFont_wght.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+}
 
 * {
   font-family: "Public Sans", sans-serif;
