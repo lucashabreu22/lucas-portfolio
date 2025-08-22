@@ -8,6 +8,7 @@ const Footer = () => {
           href="https://www.linkedin.com/in/lucashabreu/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="LinkedIn"
         >
           <div data-icon="LinkedinLogo" data-size="24px" data-weight="regular">
             <svg
@@ -24,6 +25,7 @@ const Footer = () => {
           href="https://github.com/lucashabreu22"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="GitHub"
         >
           <div data-icon="GithubLogo" data-size="24px" data-weight="regular">
             <svg

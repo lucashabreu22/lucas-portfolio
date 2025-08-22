@@ -13,16 +13,21 @@ const Header = () => {
       <div className="menuContent">
         <ul className="nav-links">
           <li>
-            <a href="#aboutMe">About Me</a>
+            <a href="#aboutMe" aria-label="About Me">
+              About Me
+            </a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#portfolio" aria-label="Portfolio">
+              Portfolio
+            </a>
           </li>
           <li>
             <a
               href="https://www.linkedin.com/in/lucashabreu/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Curriculum LinkedIn Profile"
             >
               Curriculum
             </a>

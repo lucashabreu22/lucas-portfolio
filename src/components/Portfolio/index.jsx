@@ -6,14 +6,14 @@ import cepProjectImg from "./cepProject.jpg"; // Importe a imagem do projeto de 
 const Portfolio = () => {
   const projects = [
     {
-      name: "Login Page ",
+      name: "Login Page",
       description:
         "A simple login page built with React.js. Where the user can register and login, savind the data in localStorage.",
       image: loginProjectImg,
       link: "https://login-project-gules-iota.vercel.app/",
     },
     {
-      name: "Search CEP ",
+      name: "Search CEP",
       description:
         "A project that allows users to search for Brazilian postal codes (CEP) and view their details.",
       image: cepProjectImg,
@@ -38,7 +38,7 @@ const Portfolio = () => {
         <div key={index} className="projects">
           <div className="projectText">
             <p className="featuredProject">Featured Project</p>
-            <h4>{projects[index].name}</h4>
+            <h1>{projects[index].name}</h1>
             <p>{projects[index].description}</p>
             <button onClick={() => window.open(projects[index].link, "_blank")}>
               View Project

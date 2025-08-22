@@ -27,12 +27,12 @@
 
 .projectText p {
   font-size: 1rem;
-  color: #898989;
+  color: #403f3fdf;
   line-height: 1.5;
   gap: 0.5rem;
 }
 
-.projectText h4 {
+.projectText h1 {
   font-size: 1.1rem;
   color: #20262c;
   margin: 0.5rem 0;
