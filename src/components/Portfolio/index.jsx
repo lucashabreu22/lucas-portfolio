@@ -30,7 +30,9 @@ const Portfolio = () => {
 
   return (
     <div className="portfolioContainer">
-      <h2>Portfolio</h2>
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+      </section>
 
       {projects.map((project, index) => (
         <div key={index} className="projects">

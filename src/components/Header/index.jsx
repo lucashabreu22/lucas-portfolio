@@ -1,4 +1,6 @@
 import logoSvg from "./logo.svg";
+import { User, FileUser, ScrollText } from "lucide-react";
+
 import "./style.css";
 
 const Header = () => {
@@ -9,15 +11,30 @@ const Header = () => {
         <h1>LucasFolio</h1>
       </div>
       <div className="menuContent">
-        <p>Home</p>
-        <p>About Me</p>
-        <p>Portfolio</p>
-        <p>Curriculum</p>
-        <label for="switch" class="switch">
-          <input id="switch" type="checkbox" />
-          <span class="slider"></span>
-          <span class="decoration"></span>
-        </label>
+        <ul className="nav-links">
+          <li>
+            <a href="#aboutMe">About Me</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#">Curriculum</a>
+          </li>
+        </ul>
+
+        <div className="menu-icon">
+          <a href="#aboutMe">
+            <User />
+          </a>
+
+          <a href="#portfolio">
+            <ScrollText />
+          </a>
+          <a href="#">
+            <FileUser />
+          </a>
+        </div>
       </div>
     </nav>
   );

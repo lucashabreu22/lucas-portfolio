@@ -8,7 +8,15 @@ const Banner = () => {
       <div className="banner-text">
         <h1>Lucas Abreu</h1>
         <p>Software Engineer | Senior QA Engineer | React Enthusiast</p>
-        <button>View Portfolio</button>
+        <button
+          onClick={() =>
+            document
+              .getElementById("portfolio")
+              ?.scrollIntoView({ behavior: "smooth" })
+          }
+        >
+          View Portfolio
+        </button>
       </div>
     </div>
   );

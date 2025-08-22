@@ -11,3 +11,13 @@ body {
   background-color: #ffffff;
   color: #111418;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* dark (aplicada via Provider) */
+body.dark {
+  background: #0f1115;
+  color: #e6e9ef;
+}
