@@ -1,6 +1,8 @@
+import { useLanguage } from "../../context/LanguageContext.jsx";
 import "./style.css";
 
 const Footer = () => {
+  const { t } = useLanguage();
   return (
     <footer>
       <div className="icons">
@@ -39,7 +41,7 @@ const Footer = () => {
           </div>
         </a>
       </div>
-      <p className="footerText">@2025 Lucas Abreu. All rights reserved.</p>
+      <p className="footerText">{t("footerText")}</p>
     </footer>
   );
 };

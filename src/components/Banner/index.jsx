@@ -1,13 +1,19 @@
 import bannerImage from "./low-poly-grid-haikei.svg";
+import { useLanguage } from "../../context/LanguageContext.jsx";
 import "./style.css";
 
 const Banner = () => {
+  const { t } = useLanguage();
   return (
     <div className="banner-content">
-      <img src={bannerImage} alt="bannerImage" className="banner-image" />
+      <img
+        src={bannerImage}
+        alt={t("bannerImageAlt")}
+        className="banner-image"
+      />
       <div className="banner-text">
-        <h1>Lucas Abreu</h1>
-        <p>Software Engineer | Senior QA Engineer | React Enthusiast</p>
+        <h1>{t("name")}</h1>
+        <p>{t("jobTitle")}</p>
         <button
           onClick={() =>
             document
@@ -15,7 +21,7 @@ const Banner = () => {
               ?.scrollIntoView({ behavior: "smooth" })
           }
         >
-          View Portfolio
+          {t("viewPortfolio")}
         </button>
       </div>
     </div>
